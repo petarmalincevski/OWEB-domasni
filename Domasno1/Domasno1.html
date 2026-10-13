@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашно 1</title>
+</head>
+<body>
+   <h2>Контролен панел за паметен дом</h2>
+    <p>Следење на сензорите во домот.</p>
+    
+
+    <h4>Навигација</h4>
+<ul>
+    <li><a href="#spalna">Спална соба</a></li>
+    <li><a href="#dnevna">Дневна соба</a></li>
+    <li><a href="#kujna">Кујна</a></li>
+    <li><a href="#gradina">Градина</a></li>
+    <li><a href="#notifikacii">Нотификации</a></li>
+</ul>
+
+<h2 id="dnevna">Дневна соба</h2>
+
+<h3>1. Сензор за температура</h3>
+<p>Температура: 22 °C</p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија:</p>
+<progress value="80" max="100"></progress>
+
+<h3>2. сензор за влажност</h3>
+<p>Влажност: <meter value="45" min="0" max="100">45%</meter></p>
+<p>Статус: <input type="checkbox" checked> вклучен</p>
+<p>Батерија: 65%</p>
+
+<h3>3. Сензор за движење</h3>
+<p>Движење: <input type="checkbox" checked> Детектирано</p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија: 90%</p>
+
+<h2 id="spalna">Спална соба</h2>
+
+<h3>1. Сензор за температура</h3>
+<p>Температура: 21 °C</p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија: 90%</p>
+
+<h3>2. Сензор за светлина</h3>
+<p>Ниво на светлина: <meter value="60" min="0" max="100">60%</meter></p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија: 75%</p>
+
+<h3>3. Сензор за бучава</h3>
+<p>Ниво на бучава: 30 dB</p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија:</p>
+<progress value="50" max="100"></progress>
+
+<h2 id="kujna">Кујна</h2>
+
+<h3>1. Сензор за чад</h3>
+<p>Детекција на чад: Нема чад</p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија: 85%</p>
+
+<h3>2. Сензор за гас</h3>
+<p>Ниво на гас: <input type="range" min="0" max="100" value="10"></p>
+<p>Статус: <input type="checkbox" checked> вклучен</p>
+<p>Батерија: 70%</p>
+
+<h3>3. Сензор за температура</h3>
+<p>Температура: 23 °C</p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија:</p>
+<progress value="95" max="100"></progress>
+
+<h2 id="gradina">Градина</h2>
+
+<h3>1. Сензор за влажност на почва</h3>
+<p>Влажност: 25%</p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија: 80%</p>
+
+<h3>2. Сензор за дожд</h3>
+<p>Дожд: <input type="checkbox" checked> Детектиран</p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија: 65%</p>
+
+<h3>3. Сензор за ниво на вода</h3>
+<p>Ниво на вода: <meter value="70" min="0" max="100">70%</meter></p>
+<p>Статус: <input type="checkbox" checked> Вклучен</p>
+<p>Батерија:</p>
+<progress value="40" max="100"></progress>
+
+<h2>Правила за сензорите</h2>
+
+<ul>
+    <li>Дневна соба: температурата треба да биде
+        од 20 °C до 24 °C.</li>
+    <li>Спална соба: температурата треба да биде
+        од 18 °C до 23 °C.</li>
+    <li>Кујна: влажноста треба да биде
+        до 60%.</li>
+    <li>Градина: влажноста на почвата треба да биде
+        помеѓу 30% и 70%.</li>
+</ul>
+
+
+<h2 id="notifikacii">Нотификации</h2>
+
+<details>
+    <summary>Предупредување за дневната соба</summary>
+    <p>Температурата е над дозволената граница.</p>
+</details>
+
+<details>
+    <summary>Батерија на сензор во кујната</summary>
+    <p>Батеријата е на 15%, потребно е полнење.</p>
+</details>
+
+<details>
+    <summary>Состојба во градината</summary>
+    <p>Влажноста на почвата е ниска. Потребно е наводнување.</p>
+</details>
+
+</body>
+</html>
