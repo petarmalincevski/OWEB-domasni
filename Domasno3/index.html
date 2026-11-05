@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domasno3</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     <h1>Formula 1</h1>
+     <button id="start">Започни</button>
+    <h2>Race Information</h2>
+    <p>Круг: <span id="krug">0</span> / 10</p>
+    <p>Статус: <span id="status">Спремно</span></p>
+    <p>Безбедносно возило: <span id="safetycar">OFF</span></p>
+
+    <h2>Возачи</h2>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Позиција</th>
+                <th>Име</th>
+                <th>Тим</th>
+                <th>Брзина</th>
+                <th>Вештина</th>
+                <th>Гуми</th>
+                <th>Круг</th>
+                <th>Време</th>
+                <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody id="tabela">
+        </tbody>
+    </table>
+    <h2>Победник</h2>
+    <p id="pobednik">Се чека</p>
+    <script src="javascript.js"></script>
+</body>
+</html>
