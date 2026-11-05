@@ -1,0 +1,62 @@
+
+body {
+    background-color: #181818;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+h2 {
+    color: #e10600;
+    margin-top: 30px;
+}
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+p {
+    font-size: 18px;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #252525;
+}
+
+th {
+    background-color: #e10700;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #555;
+}
+
+tbody tr:hover {
+    background-color: #383838;
+}
+
+#pobednik {
+    color: gold;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
